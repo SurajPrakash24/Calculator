@@ -1,0 +1,106 @@
+/* for Desktop */
+body{
+    background-color: #1F1D36;
+    color: #864879;
+    text-align: center;
+}
+.calculater{
+    background-color: #3F3351;
+    /* background-image: linear-gradient(to right, #000000 0%, #53346D  51%, #000000  100%); */
+    /* background-color: #53346D; */
+    width: 375px;
+    margin: 0 auto;
+}
+#inputbox{
+    width: 300px;
+    height: 40px;
+    margin: 30px auto 25px auto;
+    font-size: large;
+}
+.table{
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+button{
+    color: white;
+    background-color: rgb(13, 0, 24);
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    width: 75px;
+}
+#c{
+    background-color: #864879;
+}
+#equal{
+    background-color: #864879;
+}
+
+/* for Mobile size */
+@media only screen and (max-width: 768px){
+    .calculater{
+        background-color: #3F3351;
+        width: 250px;
+        margin: 0 auto;
+    }
+    #inputbox{
+        width: 200px;
+        height: 25px;
+        margin: 20px auto;
+        font-size: small;
+    }
+    .table{
+        padding-bottom: 20px;
+    }
+    button{
+        height: 40px;
+        width: 50px;
+    }
+}
+
+/* for Tablet size */
+@media only screen and (min-width: 768px) and (max-width: 1100px){
+    .calculater{
+        background-color: #3F3351;
+        width: 350px;
+        margin: 0 auto;
+    }
+    #inputbox{
+        width: 300px;
+        height: 30px;
+        margin: 25px auto;
+    }
+    .table{
+        padding-bottom: 30px;
+    }
+    button{
+        height: 60px;
+        width: 70px;
+    }
+}
+
+/* 
+         
+                  
+         .btn-grad {
+            background-image: linear-gradient(to right, #000000 0%, #53346D  51%, #000000  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here 
+            color: #fff;
+            text-decoration: none;
+          }
+         
+         
+*/
