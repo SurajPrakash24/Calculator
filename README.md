@@ -9,4 +9,4 @@ https://surajprakash24.github.io/Calculator/
 
 ### Interface:
 
-<img width="460" alt="calculator" src="https://user-images.githubusercontent.com/105191744/184676717-02f7c2d0-1db0-4823-9f1b-f3787878233b.png">
+<img width="660" alt="calculator" src="https://user-images.githubusercontent.com/105191744/184676717-02f7c2d0-1db0-4823-9f1b-f3787878233b.png">
